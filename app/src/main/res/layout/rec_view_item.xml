@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+
+    app:cardElevation="10dp"
+    app:cardCornerRadius="15dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="7dp"
+    android:layout_marginBottom="7dp">
+
+    <View
+        android:id="@+id/color"
+        android:layout_width="16dp"
+        android:layout_height="wrap_content"
+        android:background="@color/red"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/pass_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пропуск в офис Альфа-Банк"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="52dp" />
+        <ImageView
+            android:id="@+id/nfc_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_nfc"
+            android:layout_marginLeft="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="16dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+</layout>

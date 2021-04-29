@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EPass</string>
+    <string name="settings">settings</string>
+    <string name="add">add</string>
+    <string name="my_passed">Мои пропуска</string>
+    <string name="my_passes">Мои пропуска</string>
+</resources>
